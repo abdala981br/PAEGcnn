@@ -12,7 +12,7 @@ A proposta do projeto é unir técnicas de Visão Computacional e Inteligência 
 
 Este repositório representa uma **nova implementação** do projeto.
 
-Após uma análise do repositório original, constatamos que ele possuía baixo nível de completude, pouca organização, ausência de documentação e códigos de difícil entendimento e manutenção.
+Após uma análise do repositório original, constatamos que ele possuía baixo nível de completude, pouca organização, códigos de difícil entendimento e manutenção.
 
 Como havia pouca implementação funcional e o esforço necessário para compreender e refatorar o código seria praticamente equivalente ao de desenvolver uma nova solução, optamos por reiniciar o projeto do zero.
 
