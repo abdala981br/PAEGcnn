@@ -49,9 +49,3 @@ O desenvolvimento original pode ser encontrado no seguinte repositório:
 
 ## Estrutura do projeto
 
-
-## 🤝 Contribuição
-
-Este projeto é desenvolvido no contexto de um **Projeto de Extensão (PAEG)**.
-
-Contribuições são bem-vindas. Caso deseje colaborar, siga os padrões de organização e desenvolvimento definidos pela equipe.
