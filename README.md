@@ -1,31 +1,35 @@
-# PAEG Visual App
+# Auxilio a Deficientes Visuais com Redes Neurais Convolucionais
 
-Este projeto registra um teste simples de visão computacional para validar o uso de um modelo YOLO exportado para TFLite. O script principal executa inferência sobre imagens `.jpg` presentes na pasta raiz, processa as detecções encontradas e salva as imagens anotadas na pasta `output/`.
+## Sobre o projeto
 
-## Objetivo do teste
+Este repositorio faz parte do projeto PAEG e registra uma etapa pratica de teste de modelo para apoio ao desenvolvimento de uma solucao de auxilio a pessoas com deficiencia visual. A proposta geral combina visao computacional, inteligencia artificial e aplicacoes futuras em ambientes integrados.
 
-O foco deste repositório é validar o comportamento do modelo em um cenário controlado e direto, antes de avançar para integrações mais amplas. O fluxo atual permite:
+No estado atual, o repositorio concentra um teste simples de inferencia com um modelo YOLO exportado para TFLite. O script principal executa o processamento de imagens `.jpg`, identifica deteccoes e salva os resultados anotados na pasta `output/`.
 
-- localizar automaticamente um arquivo de modelo TFLite compatível;
+## Objetivo do teste do modelo
+
+Este teste foi montado para validar o comportamento do modelo em um cenario direto e controlado, com entradas estaticas, antes de avancar para uma estrutura mais ampla. O fluxo atual permite:
+
+- localizar automaticamente um arquivo de modelo TFLite compativel;
 - carregar o modelo com TensorFlow Lite;
-- processar imagens de teste estáticas;
-- aplicar pós-processamento nas detecções;
-- gerar imagens de saída com caixas e rótulos.
+- processar imagens de teste locais;
+- aplicar pos-processamento nas deteccoes;
+- gerar imagens de saida com caixas e rotulos.
 
-Em termos práticos, este teste serve para confirmar se o modelo consegue ser executado localmente, identificar objetos nas imagens e produzir uma saída visual utilizável para análise inicial.
+Em termos praticos, o objetivo e confirmar se o modelo consegue ser executado localmente, identificar objetos nas imagens e produzir uma saida visual util para avaliacao inicial.
 
-## Como o teste do modelo funciona
+## Contexto do repositorio
 
-O arquivo `model.py` procura imagens `.jpg` no diretório principal do projeto e usa o modelo TFLite disponível para rodar a inferência. Depois disso, o script desenha as detecções encontradas sobre a imagem original e grava o resultado na pasta `output/`.
+Este repositorio representa uma nova implementacao dentro do contexto do projeto. A decisao de seguir com uma estrutura nova permitiu organizar melhor os experimentos, simplificar a manutencao e documentar cada etapa com mais clareza.
 
-Esse processo foi montado como um teste funcional simples, com entradas estáticas, para validar a execução do modelo e apoiar comparações com outros experimentos semelhantes.
+Esse experimento especifico esta focado apenas na validacao do modelo. Ele nao representa ainda a solucao final do projeto, mas sim uma base controlada para testes comparativos e evolucao tecnica.
 
 ## Documentos adicionais
 
 ### MORE_INFO.md
 
-O arquivo `MORE_INFO.md` explica o contexto deste experimento. Ele descreve que este repositório representa um script simples, feito com entradas estáticas apenas para teste do modelo, e que esse tipo de validação está sendo repetido para muitos outros modelos. Também registra que existe um projeto no Hugging Face reunindo outros modelos já testados.
+O arquivo `MORE_INFO.md` explica o contexto deste experimento. Ele descreve que foi feito um script simples com inputs estaticos apenas para testar o modelo, que esse mesmo processo esta sendo realizado para muitos outros modelos e que existe um projeto no Hugging Face reunindo outros modelos ja testados.
 
 ### NEXT_STEPS.md
 
-O arquivo `NEXT_STEPS.md` descreve os próximos avanços esperados para a iniciativa. Entre eles estão a realização de novos testes com outros modelos, a construção de um dataset mais trabalhado e, por fim, a definição da comunicação e da utilização desses modelos via API.
+O arquivo `NEXT_STEPS.md` descreve os proximos passos da iniciativa. Ele cobre a realizacao de novos testes com outros modelos, a montagem de um dataset mais bem trabalhado e a futura comunicacao e utilizacao dos modelos via API.
