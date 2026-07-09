@@ -1,51 +1,35 @@
-# Auxílio a Deficientes Visuais com Redes Neurais Convolucionais
+# Auxilio a Deficientes Visuais com Redes Neurais Convolucionais
 
 ## Sobre o projeto
 
-Este repositório faz parte de um **Projeto de Extensão (PAEG)** cujo objetivo é desenvolver um aplicativo de auxílio a pessoas com deficiência visual utilizando **Redes Neurais Convolucionais (CNNs)** para detecção e reconhecimento de objetos em tempo real.
+Este repositorio faz parte do projeto PAEG e registra uma etapa pratica de teste de modelo para apoio ao desenvolvimento de uma solucao de auxilio a pessoas com deficiencia visual. A proposta geral combina visao computacional, inteligencia artificial e aplicacoes futuras em ambientes integrados.
 
-A proposta do projeto é unir técnicas de Visão Computacional e Inteligência Artificial ao desenvolvimento mobile, oferecendo uma ferramenta que contribua para a autonomia e acessibilidade de pessoas com deficiência visual.
+No estado atual, o repositorio concentra um teste simples de inferencia com um modelo YOLO exportado para TFLite. O script principal executa o processamento de imagens `.jpg`, identifica deteccoes e salva os resultados anotados na pasta `output/`.
 
----
+## Objetivo do teste do modelo
 
-## Reinício do projeto
+Este teste foi montado para validar o comportamento do modelo em um cenario direto e controlado, com entradas estaticas, antes de avancar para uma estrutura mais ampla. O fluxo atual permite:
 
-Este repositório representa uma **nova implementação** do projeto.
+- localizar automaticamente um arquivo de modelo TFLite compativel;
+- carregar o modelo com TensorFlow Lite;
+- processar imagens de teste locais;
+- aplicar pos-processamento nas deteccoes;
+- gerar imagens de saida com caixas e rotulos.
 
-Após uma análise do repositório original, constatamos que ele possuía baixo nível de completude, pouca organização, códigos de difícil entendimento e manutenção.
+Em termos praticos, o objetivo e confirmar se o modelo consegue ser executado localmente, identificar objetos nas imagens e produzir uma saida visual util para avaliacao inicial.
 
-Como havia pouca implementação funcional e o esforço necessário para compreender e refatorar o código seria praticamente equivalente ao de desenvolver uma nova solução, optamos por reiniciar o projeto do zero.
+## Contexto do repositorio
 
-Essa decisão permite adotar melhores práticas de desenvolvimento, organização, documentação e padronização desde o início, tornando o projeto mais claro, escalável e de fácil manutenção para todos os integrantes da equipe.
+Este repositorio representa uma nova implementacao dentro do contexto do projeto. A decisao de seguir com uma estrutura nova permitiu organizar melhor os experimentos, simplificar a manutencao e documentar cada etapa com mais clareza.
 
----
+Esse experimento especifico esta focado apenas na validacao do modelo. Ele nao representa ainda a solucao final do projeto, mas sim uma base controlada para testes comparativos e evolucao tecnica.
 
-## Repositório anterior
+## Documentos adicionais
 
-O desenvolvimento original pode ser encontrado no seguinte repositório:
+### MORE_INFO.md
 
-** Repositório antigo:**  
-<link>
+O arquivo `MORE_INFO.md` explica o contexto deste experimento. Ele descreve que foi feito um script simples com inputs estaticos apenas para testar o modelo, que esse mesmo processo esta sendo realizado para muitos outros modelos e que existe um projeto no Hugging Face reunindo outros modelos ja testados.
 
----
+### NEXT_STEPS.md
 
-## Tecnologias utilizadas
-
-> Esta seção será atualizada conforme o desenvolvimento do projeto.
-
-- Flutter
-- YOLO13
-
----
-
-## Objetivos
-
-- Desenvolver um aplicativo móvel acessível.
-- Detectar e reconhecer objetos utilizando Redes Neurais Convolucionais.
-- Auxiliar pessoas com deficiência visual por meio de feedbacks intuitivos.
-- Aplicar conceitos de Inteligência Artificial e Visão Computacional em um projeto de extensão universitária.
-
----
-
-## Estrutura do projeto
-
+O arquivo `NEXT_STEPS.md` descreve os proximos passos da iniciativa. Ele cobre a realizacao de novos testes com outros modelos, a montagem de um dataset mais bem trabalhado e a futura comunicacao e utilizacao dos modelos via API.
