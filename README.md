@@ -1,51 +1,17 @@
-# Auxílio a Deficientes Visuais com Redes Neurais Convolucionais
+# teste_paeg
 
-## Sobre o projeto
+A new Flutter project.
 
-Este repositório faz parte de um **Projeto de Extensão (PAEG)** cujo objetivo é desenvolver um aplicativo de auxílio a pessoas com deficiência visual utilizando **Redes Neurais Convolucionais (CNNs)** para detecção e reconhecimento de objetos em tempo real.
+## Getting Started
 
-A proposta do projeto é unir técnicas de Visão Computacional e Inteligência Artificial ao desenvolvimento mobile, oferecendo uma ferramenta que contribua para a autonomia e acessibilidade de pessoas com deficiência visual.
+This project is a starting point for a Flutter application.
 
----
+A few resources to get you started if this is your first Flutter project:
 
-## Reinício do projeto
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-Este repositório representa uma **nova implementação** do projeto.
-
-Após uma análise do repositório original, constatamos que ele possuía baixo nível de completude, pouca organização, códigos de difícil entendimento e manutenção.
-
-Como havia pouca implementação funcional e o esforço necessário para compreender e refatorar o código seria praticamente equivalente ao de desenvolver uma nova solução, optamos por reiniciar o projeto do zero.
-
-Essa decisão permite adotar melhores práticas de desenvolvimento, organização, documentação e padronização desde o início, tornando o projeto mais claro, escalável e de fácil manutenção para todos os integrantes da equipe.
-
----
-
-## Repositório anterior
-
-O desenvolvimento original pode ser encontrado no seguinte repositório:
-
-** Repositório antigo:**  
-<link>
-
----
-
-## Tecnologias utilizadas
-
-> Esta seção será atualizada conforme o desenvolvimento do projeto.
-
-- Flutter
-- YOLO13
-
----
-
-## Objetivos
-
-- Desenvolver um aplicativo móvel acessível.
-- Detectar e reconhecer objetos utilizando Redes Neurais Convolucionais.
-- Auxiliar pessoas com deficiência visual por meio de feedbacks intuitivos.
-- Aplicar conceitos de Inteligência Artificial e Visão Computacional em um projeto de extensão universitária.
-
----
-
-## Estrutura do projeto
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
