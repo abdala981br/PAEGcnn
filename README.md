@@ -1,8 +1,8 @@
-# Caminho Livre
+# Auxilio a Deficientes Visuais com Redes Neurais Convolucionais
 
 ## Sobre o projeto
 
-O **Caminho Livre** é um aplicativo móvel desenvolvido em Flutter com foco em acessibilidade para pessoas com deficiência visual. O objetivo do projeto é fornecer auxílio durante a locomoção por meio da identificação de obstáculos utilizando a câmera do dispositivo e recursos de feedback acessíveis.
+É um aplicativo mobile desenvolvido em Flutter com foco em acessibilidade para pessoas com deficiência visual. O objetivo do projeto é fornecer auxílio durante a locomoção por meio da identificação de obstáculos utilizando a câmera do dispositivo e recursos de feedback acessíveis.
 
 Nesta etapa do desenvolvimento, foi implementada a estrutura base da aplicação, incluindo a interface gráfica, a navegação entre telas, o gerenciamento de permissões da câmera e as configurações de acessibilidade.
 
