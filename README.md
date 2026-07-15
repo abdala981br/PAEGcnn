@@ -74,7 +74,7 @@ git clone <URL_DO_REPOSITORIO>
 Acesse a pasta do projeto:
 
 ```bash
-cd CaminhoLivre
+cd fabricio
 ```
 
 Instale as dependências:
